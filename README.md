@@ -1,5 +1,4 @@
-
-<img align="left" width="65" height="65" src="./img/logo.svg">
+<img align="left" width="6%" src="./img/logo.svg">
 
 # Empire - GameModeManager Wiki, EXILED 2.0 plugin
 
