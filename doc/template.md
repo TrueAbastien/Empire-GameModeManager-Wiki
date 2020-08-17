@@ -4,9 +4,11 @@ A full description of every rules and propreties.
 
 ## Configuration
 
-Name | Type | Value | Description
-:---: | :---: | :---: | :------
-enabled | bool | true | Enable the plugin if need be.
+### General
+
+Name | Type | Value | Constraints | Description
+:---: | :---: | :---: | :---: | :------
+enabled | bool | true | ~~none~~ | Enable the plugin if need be.
 
 ## Commands
 
