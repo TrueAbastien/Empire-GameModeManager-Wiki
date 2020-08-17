@@ -13,20 +13,20 @@ Here follows the description of every Gamemodes made for the Private plugin *Gam
 ### Gamemodes
 
 Here is a list of every Gamemodes currently available:
-* DarkSouls
-* HideAndSeek
-* Purge
-* ZombieInvasion
+* [DarkSouls](./doc/DarkSouls.md)
+* [HideAndSeek](./doc/HideAndSeek.md)
+* [Purge](./doc/Purge.md)
+* [ZombieInvasion](./doc/ZombieInvasion.md)
 
 The following plugins are currently being worked on:
-* Murder
+* [Murder](./doc/Murder.md)
 
 #### Samples
 
 If you want to test the commands, try using the following examples:
-* Bomberman
-* GlassMade
-* WorkHazard
+* [Bomberman](./doc/Bomberman.md)
+* [GlassMade](./doc/GlassMade.md)
+* [WorkHazard](./doc/WorkHazard.md)
 
 ### Commands
 
@@ -40,6 +40,8 @@ gm.add | gm.queue | GamemodeName | Add a Gamemode to the back of the Waitlist. I
 gm.clear | gm.clean, gm.cls | ('all') | Clean the Gamemode Waitlist. If 'all' argument is given, also unload the current Gamemode.
 gm.set | gm.trigger | TriggerName | Set the current trigger loading the next event. Before every round start, if conditions are met, if any, the next Gamemode in Waitlist will automatically load.
 gm.info | gm.current | ~~none~~ | Print out informations about the current state of Gamemode process.
+
+Every specific Gamemode commands should be called as such: ```gm.<GamemodeName>.<CommandName> <arguments...>```
 
 ### Configs
 
@@ -55,8 +57,8 @@ gm.config.set | ~~none~~ | GamemodeName, PropretyName, value | Set a proprety va
 
 ## Developper manual
 
-```*No developper ressources has actually been written yet, this is still ongoing work...*```
+```No developper ressources has actually been written yet, this is still ongoing work...```
 
 ---
 
-*latest update* **_on 17th August of 2020_**
+*latest update* **_on 18th August of 2020_**
