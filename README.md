@@ -1,3 +1,6 @@
+
+<img align="left" width="65" height="65" src="./img/logo.svg">
+
 # Empire - GameModeManager Wiki, EXILED 2.0 plugin
 
 Here follows the description of every Gamemodes made for the Private plugin *GameModeManager* for the Empire, a french gaming server on **SCP: Secret Laboratory**.
@@ -6,7 +9,7 @@ Here follows the description of every Gamemodes made for the Private plugin *Gam
 
 ### Gamemodes
 
-Here is a list of every Gamemodes currently usable:
+Here is a list of every Gamemodes currently available:
 * DarkSouls
 * HideAndSeek
 * Purge
@@ -14,6 +17,8 @@ Here is a list of every Gamemodes currently usable:
 
 The following plugins are currently being worked on:
 * Murder
+
+#### Samples
 
 If you want to test the commands, try using the following examples:
 * Bomberman
@@ -47,7 +52,7 @@ gm.config.set | ~~none~~ | GamemodeName, PropretyName, value | Set a proprety va
 
 ## Developper manual
 
-*No developper ressources has actually been written, this is still ongoing work...*
+```*No developper ressources has actually been written yet, this is still ongoing work...*```
 
 ---
 
