@@ -1,7 +1,7 @@
 <p align="center">
-  <img width="40%" src="./img/border/left.svg">
-  <img width="10%" src="./img/logo.svg">
-  <img width="40%" src="./img/border/right.svg">
+  <img width="38%" src="./img/border/left.svg">
+  <img width="20%" src="./img/logo.svg">
+  <img width="38%" src="./img/border/right.svg">
 </p>
 
 # Empire - GameModeManager Wiki, EXILED 2.0 plugin
