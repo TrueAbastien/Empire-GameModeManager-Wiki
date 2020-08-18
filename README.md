@@ -62,7 +62,7 @@ DEL | gm.del | Reserved for deleting actions through commands, like unloading Ga
 
 #### Rank
 
-These should be limiteds to in-Gamemode commands use.
+These should be limited to in-Gamemode commands use.
 
 Name | Value | Description
 :---: | :---: | :------
