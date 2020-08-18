@@ -78,7 +78,7 @@ Configurations are dynamically handled in this Plugin allowing you for each Game
 Each proprety can be accessed or changed through the following commands:
 
 Name | Aliases | Arguments | Permission | Description
-:---: | :---: | :---: | :------
+:---: | :---: | :---: | :---: | :------
 gm.config.get | ~~none~~ | GamemodeName, PropretyName | GET | Get a proprety value from dynamic config.
 gm.config.set | ~~none~~ | GamemodeName, PropretyName, value | SET | Set a proprety value from dynamic config.
 
