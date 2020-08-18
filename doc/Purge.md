@@ -39,7 +39,7 @@ DefenselessStatusLuck | double | 0.1 | Between 0 and 1 | Chances of being cursed
 ## Commands
 
 Name | Alias | Arguments | Permission | Description
-:---: | :---: | :---: | :------
+:---: | :---: | :---: | :---: | :------
 curse | gay | PlayerNickname | Mod | Give someone a random effect with infinite duration.
 info | factor | ('all') | Mod | Display the info of the current Size Modifier Items.
 reroll | roll, random, rand, r | ~~none~~ | Admin | Roll the items set to Grow or Shrink the player on MicroHID damage.

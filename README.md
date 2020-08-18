@@ -33,7 +33,7 @@ If you want to test the commands, try using the following examples:
 In order to compute and use Gamemodes successfully, take into account the following commands:
 
 Name | Aliases | Arguments | Permission | Description
-:---: | :---: | :---: | :------
+:---: | :---: | :---: | :---: | :------
 gm.load | ~~none~~ | GamemodeName | SET | Load a new Gamemode.
 gm.unload | gm.stop | ~~none~~ | DEL | Unload the current Gamemode. If any, the following Gamemode in Waitlist will automatically load.
 gm.add | gm.queue | GamemodeName | PUT | Add a Gamemode to the back of the Waitlist. If no Gamemode is currently loaded, the added Gamemode will automatically load.

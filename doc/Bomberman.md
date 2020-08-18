@@ -5,7 +5,7 @@ Bomberman makes everyone explodes on death (not caused by SCPs). If need be, eve
 ## Commands
 
 Name | Alias | Arguments | Permission | Description
-:---: | :---: | :---: | :------
+:---: | :---: | :---: | :---: | :------
 explode | ~~none~~ | ~~none~~ | Admin | Explode ALL Players.
 
 ---
