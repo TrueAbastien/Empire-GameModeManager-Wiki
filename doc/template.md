@@ -12,9 +12,9 @@ enabled | bool | true | ~~none~~ | Enable the plugin if need be.
 
 ## Commands
 
-Name | Alias | Arguments | Description
+Name | Alias | Arguments | Permission | Description
 :---: | :---: | :---: | :------
-info | i | ~~none~~ | Display informations about the current state of this Gamemode.
+info | i | ~~none~~ | Manager | Display informations about the current state of this Gamemode.
 
 ---
 
