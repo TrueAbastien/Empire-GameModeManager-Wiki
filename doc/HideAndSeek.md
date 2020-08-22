@@ -1,10 +1,10 @@
 # HideAndSeek, some hide while other seek but most will die.
 
-A pack of 939 (seekers) is liberated in LCZ after a given time to ClassD (hiders) to hide themselves in the zone.
-After a given amount of hiders are killed, each level open up little by little.
-Whene the LCZ checkpoints open, a countdown to decontamination triggers: decontamination will kill Hiders and teleport Seekers in HCZ.
-If a hider escapes, a final showdown will take place on the surface.
-Seekers will be stunned for a few seconds whenever they take damages (if activated).
+* A pack of 939 (seekers) is liberated in LCZ after a given time to ClassD (hiders) to hide themselves in the zone.
+* After a given amount of hiders are killed, each level open up little by little.
+* Whene the LCZ checkpoints open, a countdown to decontamination triggers: decontamination will kill Hiders and teleport Seekers in HCZ.
+* If a hider escapes, a final showdown will take place on the surface.
+* Seekers will be stunned for a few seconds whenever they take damages (if activated).
 
 ## Configuration
 
@@ -36,4 +36,4 @@ MaxEnsnaredDuration | float | 5.0 | Above 0 | Maximum duration applied on damage
 
 ---
 
-*latest update on 17th of August 2020*
+*latest update on 22nd of August 2020*

@@ -1,6 +1,8 @@
 # Gamemode, a edgy and short description.
 
-A full description of every rules and propreties.
+#### <ins>Prefix:</ins> **prefix**
+
+* A full description of every rules and propreties.
 
 ## Configuration
 
@@ -18,4 +20,4 @@ info | i | ~~none~~ | Manager | Display informations about the current state of 
 
 ---
 
-*latest update on 17th of August 2020*
+*latest update on 22nd of August 2020*

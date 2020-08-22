@@ -1,6 +1,7 @@
 # WorkHazard, risk of instantaneous explosion.
 
-Most interaction (doors, lockers, scps, ...) may get you killed... by exploding. Shooting and throwing grenade can also do so.
+* Most interaction (doors, lockers, scps, ...) may get you killed... by exploding.
+* Shooting and throwing grenade can also do so.
 
 ## Configuration
 
@@ -21,4 +22,4 @@ InteractChances | int | 100 | Above 0 | Divider of chance of exploding when inte
 
 ---
 
-*latest update on 17th of August 2020*
+*latest update on 22nd of August 2020*

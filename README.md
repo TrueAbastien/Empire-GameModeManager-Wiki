@@ -13,8 +13,11 @@ Here follows the description of every Gamemodes made for the Private plugin *Gam
 ### Gamemodes
 
 Here is a list of every Gamemodes currently available:
+* [BlindLooters](./doc/BlindLooters.md)
 * [DarkSouls](./doc/DarkSouls.md)
 * [HideAndSeek](./doc/HideAndSeek.md)
+* [HostageExtraction](./doc/HostageExtraction.md)
+* [Pillar](./doc/Pillar.md)
 * [Purge](./doc/Purge.md)
 * [ZombieInvasion](./doc/ZombieInvasion.md)
 
@@ -41,7 +44,9 @@ gm.clear | gm.clean, gm.cls | ('all') | DEL | Clean the Gamemode Waitlist. If 'a
 gm.set | gm.trigger | TriggerName | SET | Set the current trigger loading the next event. Before every round start, if conditions are met, if any, the next Gamemode in Waitlist will automatically load.
 gm.info | gm.current | ~~none~~ | GET | Print out informations about the current state of Gamemode process.
 
-Every specific Gamemode commands should be called as such: ```gm.<GamemodeName>.<CommandName> <arguments...>```
+Every specific Gamemode commands should be called as such: ```gm.<GamemodePrefix>.<CommandName> <arguments...>```
+
+> :warning: **A GamemodePrefix is usually the GamemodeName**, however they can be redefined for longer name so be careful...
 
 ### Permissions
 
@@ -81,6 +86,10 @@ Name | Aliases | Arguments | Permission | Description
 :---: | :---: | :---: | :---: | :------
 gm.config.get | ~~none~~ | GamemodeName, PropretyName | GET | Get a proprety value from dynamic config.
 gm.config.set | ~~none~~ | GamemodeName, PropretyName, value | SET | Set a proprety value from dynamic config.
+
+In short, the commands call themselves likewise:
+* ```gm.config.get <GamemodePrefix> <PropertyName>```
+* ```gm.config.set <GamemodePrefix> <PropertyName> <Value>```
 
 
 ## Developper manual

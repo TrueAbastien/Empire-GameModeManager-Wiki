@@ -1,10 +1,10 @@
 # Purge, die die die.
 
-While friendly fire is active, this Gamemode punishes useless murder.
-Shooting your teammates or unarmed people may get you killed faster than expected.
-Slow-throwing grenades may result in your death or you victory.
-The MicroHID will have 'unexpected' results for victims with the right items in hand.
-SCPs can be slightly boosted (if need be).
+* While friendly fire is active, this Gamemode punishes useless murder.
+* Shooting your teammates or unarmed people may get you killed faster than expected.
+* Slow-throwing grenades may result in your death or you victory.
+* The MicroHID will have 'unexpected' results for victims with the right items in hand.
+* SCPs can be slightly boosted (if need be).
 
 ## Configuration
 
@@ -46,4 +46,4 @@ reroll | roll, random, rand, r | ~~none~~ | Admin | Roll the items set to Grow o
 
 ---
 
-*latest update on 17th of August 2020*
+*latest update on 22nd of August 2020*

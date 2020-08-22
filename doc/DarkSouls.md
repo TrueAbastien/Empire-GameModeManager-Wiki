@@ -1,6 +1,7 @@
 # DarkSouls, sadistic staff usually have a tendency for explosion.
 
-Interacting doors, throwing grenades, shooting SCPs (or just shooting) can trigger an explosion. Being handcuff allow for invulnerability in exchance for possible immobility.
+* Interacting doors, throwing grenades, shooting SCPs (or just shooting) can trigger an explosion.
+* Being handcuff allow for invulnerability in exchance for possible immobility.
 
 This Gamemode is highly configurable.
 
@@ -39,4 +40,4 @@ MaxDepthScale | float | 1.2 | Above *MinDepthScale* | Maximal depth a player can
 
 ---
 
-*latest update on 17th of August 2020*
+*latest update on 22nd of August 2020*
