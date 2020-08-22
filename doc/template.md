@@ -4,6 +4,10 @@
 
 * A full description of every rules and propreties.
 
+## Patches
+
+* **ObliviousName:** Description.
+
 ## Configuration
 
 ### General
@@ -20,4 +24,4 @@ info | i | ~~none~~ | Manager | Display informations about the current state of 
 
 ---
 
-*latest update on 22nd of August 2020*
+*latest update on 23rd of August 2020*
