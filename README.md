@@ -13,10 +13,10 @@ Here follows the description of every Gamemodes made for the Private plugin *Gam
 ### Gamemodes
 
 Here is a list of every Gamemodes currently available:
-* [BlindLooters](./doc/BlindLooters.md)
+* [BlindLooters](./doc/BlindLooters.md) (BlindL)
 * [DarkSouls](./doc/DarkSouls.md)
 * [HideAndSeek](./doc/HideAndSeek.md)
-* [HostageExtraction](./doc/HostageExtraction.md)
+* [HostageExtraction](./doc/HostageExtraction.md) (Hostage)
 * [Pillar](./doc/Pillar.md)
 * [Purge](./doc/Purge.md)
 * [ZombieInvasion](./doc/ZombieInvasion.md)
@@ -98,4 +98,4 @@ In short, the commands call themselves likewise:
 
 ---
 
-*latest update* **_on 18th August of 2020_**
+*latest update* **_on 22nd August of 2020_**
