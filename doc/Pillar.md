@@ -12,8 +12,8 @@
 Name | Type | Value | Constraints | Description
 :---: | :---: | :---: | :---: | :------
 PeanutAmount | int | 3 | Above 0 | Amount of 173 per round.
-SpawnOffset | float | 2.0 | ~~none~~ | Height offset on round start spawn-teleportation.
-AutoPeanut | bool | false | ~~none~~ | Automatically teleports 173 after 'PeanutDelay'.
+SpawnOffset | float | 2.0 | - | Height offset on round start spawn-teleportation.
+AutoPeanut | bool | false | - | Automatically teleports 173 after 'PeanutDelay'.
 
 ### Delay
 

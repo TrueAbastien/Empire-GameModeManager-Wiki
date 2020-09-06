@@ -28,7 +28,7 @@ DisplayItemDuration | ushort | 25 | Above 0 | Duration after which the rewarding
 
 Name | Alias | Arguments | Permission | Description
 :---: | :---: | :---: | :---: | :------
-item | info, reward | ~~none~~ | User | Display the name of your current reward item.
+item | info, reward | - | User | Display the name of your current reward item.
 
 ---
 

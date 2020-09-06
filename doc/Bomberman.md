@@ -6,7 +6,7 @@
 
 Name | Alias | Arguments | Permission | Description
 :---: | :---: | :---: | :---: | :------
-explode | ~~none~~ | ~~none~~ | Admin | Explode ALL Players.
+explode | - | - | Admin | Explode ALL Players.
 
 ---
 

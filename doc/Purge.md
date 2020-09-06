@@ -12,7 +12,7 @@
 
 Name | Type | Value | Constraints | Description
 :---: | :---: | :---: | :---: | :------
-ZombieOn049Death | bool | false | ~~none~~ | Respawn as a Zombie on SCP049 death.
+ZombieOn049Death | bool | false | - | Respawn as a Zombie on SCP049 death.
 LethalLarryBodyCount | int | -1 | Under 0 (to disable), Above or equal to 0 (to enable) | Requiered victims for 106 to become lethal.
 
 ### Factor
@@ -42,7 +42,7 @@ Name | Alias | Arguments | Permission | Description
 :---: | :---: | :---: | :---: | :------
 curse | gay | PlayerNickname | Mod | Give someone a random effect with infinite duration.
 info | factor | ('all') | Mod | Display the info of the current Size Modifier Items.
-reroll | roll, random, rand, r | ~~none~~ | Admin | Roll the items set to Grow or Shrink the player on MicroHID damage.
+reroll | roll, random, rand, r | - | Admin | Roll the items set to Grow or Shrink the player on MicroHID damage.
 
 ---
 

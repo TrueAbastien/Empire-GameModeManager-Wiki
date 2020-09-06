@@ -16,7 +16,7 @@
 Name | Type | Value | Constraints | Description
 :---: | :---: | :---: | :---: | :------
 ChaosRepartition | float | 0.5 | Between 0 and 1 | Chaos starting amount over MTF starting amount.
-CuffedImmobility | bool | true | ~~none~~ | Become immobilized when cuffed.
+CuffedImmobility | bool | false | - | Become immobilized when cuffed.
 HostageDamageFactor | float | 0.05 | Above or equal to 0 | Multiplier of damage delt to the Hostage.
 
 ### Respawn
@@ -31,7 +31,7 @@ LieutenantChances | float | 0.3 | Between 0 and 1 | Chances of becoming a lieute
 
 Name | Alias | Arguments | Permission | Description
 :---: | :---: | :---: | :---: | :------
-respawn | r, next, new, respawnNTF | ~~none~~ | Admin | Force a new MTF respawn.
+respawn | r, next, new, respawnNTF | - | Admin | Force a new MTF respawn.
 
 ---
 

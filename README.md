@@ -13,16 +13,17 @@ Here follows the description of every Gamemodes made for the Private plugin *Gam
 ### Gamemodes
 
 Here is a list of every Gamemodes currently available:
-* [BlindLooters](./doc/BlindLooters.md) (BlindL)
-* [DarkSouls](./doc/DarkSouls.md)
-* [HideAndSeek](./doc/HideAndSeek.md)
-* [HostageExtraction](./doc/HostageExtraction.md) (Hostage)
-* [Pillar](./doc/Pillar.md)
-* [Purge](./doc/Purge.md)
-* [ZombieInvasion](./doc/ZombieInvasion.md)
 
-The following plugins are currently being worked on:
-* [Murder](./doc/Murder.md)
+Name | Prefix | State
+:---: | :---: | :---:
+[BlindLooters](./doc/BlindLooters.md) | BlindL | Untested
+[DarkSouls](./doc/DarkSouls.md) | - | On Rework
+[HideAndSeek](./doc/HideAndSeek.md) | - | Ready
+[HostageExtraction](./doc/HostageExtraction.md) | Hostage | Ready
+[Pillar](./doc/Pillar.md) | - | Untested
+[Purge](./doc/Purge.md) | - | Ready
+[ZombieInvasion](./doc/ZombieInvasion.md) | - | Ready
+[Murder](./doc/Murder.md) | - | On Work
 
 #### Samples
 
@@ -37,12 +38,12 @@ In order to compute and use Gamemodes successfully, take into account the follow
 
 Name | Aliases | Arguments | Permission | Description
 :---: | :---: | :---: | :---: | :------
-gm.load | ~~none~~ | GamemodeName | SET | Load a new Gamemode.
-gm.unload | gm.stop | ~~none~~ | DEL | Unload the current Gamemode. If any, the following Gamemode in Waitlist will automatically load.
+gm.load | - | GamemodeName | SET | Load a new Gamemode.
+gm.unload | gm.stop | - | DEL | Unload the current Gamemode. If any, the following Gamemode in Waitlist will automatically load.
 gm.add | gm.queue | GamemodeName | PUT | Add a Gamemode to the back of the Waitlist. If no Gamemode is currently loaded, the added Gamemode will automatically load.
 gm.clear | gm.clean, gm.cls | ('all') | DEL | Clean the Gamemode Waitlist. If 'all' argument is given, also unload the current Gamemode.
 gm.set | gm.trigger | TriggerName | SET | Set the current trigger loading the next event. Before every round start, if conditions are met, if any, the next Gamemode in Waitlist will automatically load.
-gm.info | gm.current | ~~none~~ | GET | Print out informations about the current state of Gamemode process.
+gm.info | gm.current | - | GET | Print out informations about the current state of Gamemode process.
 
 Every specific Gamemode commands should be called as such: ```gm.<GamemodePrefix>.<CommandName> <arguments...>```
 
@@ -84,8 +85,8 @@ Each proprety can be accessed or changed through the following commands:
 
 Name | Aliases | Arguments | Permission | Description
 :---: | :---: | :---: | :---: | :------
-gm.config.get | ~~none~~ | GamemodeName, PropretyName | GET | Get a proprety value from dynamic config.
-gm.config.set | ~~none~~ | GamemodeName, PropretyName, value | SET | Set a proprety value from dynamic config.
+gm.config.get | - | GamemodeName, PropretyName | GET | Get a proprety value from dynamic config.
+gm.config.set | - | GamemodeName, PropretyName, value | SET | Set a proprety value from dynamic config.
 
 In short, the commands call themselves likewise:
 * ```gm.config.get <GamemodePrefix> <PropertyName>```

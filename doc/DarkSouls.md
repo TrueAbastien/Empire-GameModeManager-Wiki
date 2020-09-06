@@ -11,13 +11,13 @@ This Gamemode is highly configurable.
 
 Name | Type | Value | Constraints | Description
 :---: | :---: | :---: | :---: | :------
-SCPGrenadeResistance | bool | true | ~~none~~ | SCPs no longer take damage from grenade.
-SCPTeslaResistance | bool | true | ~~none~~ | SCPs no longer take damage from tesla gates.
-SelfExplosion | bool | true | ~~none~~ | Explosion doesn't damage other players.
+SCPGrenadeResistance | bool | true | - | SCPs no longer take damage from grenade.
+SCPTeslaResistance | bool | true | - | SCPs no longer take damage from tesla gates.
+SelfExplosion | bool | true | - | Explosion doesn't damage other players.
 CuffedResistanceFactor | float | 0.1 | Above or equal to 0 | Multiplier of any resistance for any cuffed personnel.
-CuffedImmobility | bool | true | ~~none~~ | Force player to stay at the place they were cuffed.
+CuffedImmobility | bool | true | - | Force player to stay at the place they were cuffed.
 ExplodingZombie | bool | true | *ExplodingSCP* must be **false** | Zombies creates an explosion whenever they take damage.
-ExplodingSCP | bool | false | ~~none~~ | SCPs creates an explosion whenever they take damage.
+ExplodingSCP | bool | false | - | SCPs creates an explosion whenever they take damage.
 
 ### Luck
 

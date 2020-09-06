@@ -4,7 +4,7 @@
 * After a given amount of hiders are killed, each level open up little by little.
 * Whene the LCZ checkpoints open, a countdown to decontamination triggers: decontamination will kill Hiders and teleport Seekers in HCZ.
 * If a hider escapes, a final showdown will take place on the surface.
-* Seekers will be stunned for a few seconds whenever they take damages (if activated).
+* Seekers will be stunned for a few seconds whenever they take damage (if activated).
 
 ## Configuration
 
@@ -25,12 +25,13 @@ SeekerDelay | float | 90.0 | Above 0 | Delay before Seekers spawn in LCZ.
 StageDelay | float | 5.0 | Above 0 | Delay before advancing to next stage.
 DecontaminationDelay | float | 120.0 | Above 0 | Delay before decontamination.
 WarheadDelay | float | 30.0 | Above 0 | Delay before warhead activation on ClassD escape.
+CuckedSeeker | float | 5.0 | Above ~2 | Delay before the over-needed Seekers get cucked.
 
 ### Status
 
 Name | Type | Value | Constraints | Description
 :---: | :---: | :---: | :---: | :------
-EnsnaredSwitch | bool | true | ~~none~~ | Activation of ensnared effect on damages took.
+EnsnaredSwitch | bool | true | - | Activation of ensnared effect on damages took.
 EnsnaredMultiplier | float | 0.1 | Above 0 | Multiplier from damages to immobility duration.
 MaxEnsnaredDuration | float | 5.0 | Above 0 | Maximum duration applied on damage in seconds.
 

@@ -14,13 +14,13 @@
 
 Name | Type | Value | Constraints | Description
 :---: | :---: | :---: | :---: | :------
-enabled | bool | true | ~~none~~ | Enable the plugin if need be.
+enabled | bool | true | - | Enable the plugin if need be.
 
 ## Commands
 
 Name | Alias | Arguments | Permission | Description
 :---: | :---: | :---: | :---: | :------
-info | i | ~~none~~ | Manager | Display informations about the current state of this Gamemode.
+info | i | - | Manager | Display informations about the current state of this Gamemode.
 
 ---
 
