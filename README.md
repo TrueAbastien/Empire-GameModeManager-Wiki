@@ -16,14 +16,14 @@ Here is a list of every Gamemodes currently available:
 
 Name | Prefix | State
 :---: | :---: | :---:
-[BlindLooters](./doc/BlindLooters.md) | BlindL | Untested
-[DarkSouls](./doc/DarkSouls.md) | - | On Rework
-[HideAndSeek](./doc/HideAndSeek.md) | - | Ready
-[HostageExtraction](./doc/HostageExtraction.md) | Hostage | Ready
-[Pillar](./doc/Pillar.md) | - | Untested
-[Purge](./doc/Purge.md) | - | Ready
-[ZombieInvasion](./doc/ZombieInvasion.md) | - | Ready
-[Murder](./doc/Murder.md) | - | On Work
+[BlindLooters](./doc/BlindLooters.md) | BlindL | *Untested*
+[DarkSouls](./doc/DarkSouls.md) | - | *On Rework*
+[HideAndSeek](./doc/HideAndSeek.md) | - | **Ready**
+[HostageExtraction](./doc/HostageExtraction.md) | Hostage | **Ready**
+[Murder](./doc/Murder.md) | - | *On Work*
+[Pillar](./doc/Pillar.md) | - | *Untested*
+[Purge](./doc/Purge.md) | - | **Ready**
+[ZombieInvasion](./doc/ZombieInvasion.md) | - | **Ready**
 
 #### Samples
 
