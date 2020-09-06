@@ -35,4 +35,4 @@ respawn | r, next, new, respawnNTF | - | Admin | Force a new MTF respawn.
 
 ---
 
-*latest update on 22nd of August 2020*
+*latest update on 6th of September 2020*

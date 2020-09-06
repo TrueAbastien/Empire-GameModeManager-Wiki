@@ -37,4 +37,4 @@ MaxEnsnaredDuration | float | 5.0 | Above 0 | Maximum duration applied on damage
 
 ---
 
-*latest update on 22nd of August 2020*
+*latest update on 6th of September 2020*

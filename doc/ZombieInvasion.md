@@ -35,4 +35,4 @@ SizeMultiplier | float | 1.15 | Above 0 | Size multiplier for Scp049.
 
 ---
 
-*latest update on 22nd of August 2020*
+*latest update on 6th of September 2020*

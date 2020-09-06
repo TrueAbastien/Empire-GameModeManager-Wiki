@@ -23,6 +23,7 @@ Name | Prefix | State
 [Murder](./doc/Murder.md) | - | *On Work*
 [Pillar](./doc/Pillar.md) | - | *Untested*
 [Purge](./doc/Purge.md) | - | **Ready**
+[Scp035](./doc/Scp035.md) | - | *Untested*
 [ZombieInvasion](./doc/ZombieInvasion.md) | - | **Ready**
 
 #### Samples
@@ -99,4 +100,4 @@ In short, the commands call themselves likewise:
 
 ---
 
-*latest update* **_on 22nd August of 2020_**
+*latest update* **_on 6th of September 2020_**
