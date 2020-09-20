@@ -37,7 +37,7 @@ MinScaleLimit | float | 0.5 | Between 0 and 1 | Limit of minimum scale factor.
 
 Name | Type | Value | Constraints | Description
 :---: | :---: | :---: | :---: | :------
-FriendlyExplosionLuck | double | 0.05 | Between 0 and 1 | Chances of exploding on friendly fire.
+FriendlyExplosionLuck | double | 0 | Between 0 and 1 | Chances of exploding on friendly fire.
 DefenselessStatusLuck | double | 0.1 | Between 0 and 1 | Chances of being cursed on defenseless kill.
 
 ## Commands
