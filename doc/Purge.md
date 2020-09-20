@@ -1,10 +1,14 @@
 # Purge, die die die.
 
-* While friendly fire is active, this Gamemode punishes useless murder.
-* Shooting your teammates or unarmed people may get you killed faster than expected.
-* Slow-throwing grenades may result in your death or you victory.
-* The MicroHID will have 'unexpected' results for victims with the right items in hand.
+* Shooting your teammates have a chance to make you explode.
+* Shooting unarmed people may get you to be cursed with an inconvenient status effect.
+* Slow-throwing grenades will make them explode instantaneously.
+* The MicroHID may shrink, grow or kill its victims depending of the item in hand.
 * SCPs can be slightly boosted (if need be).
+
+## Patches
+
+* **SpeakingSCP:** All SCPs can now speak using their secondary vocal keybind.
 
 ## Configuration
 
@@ -46,4 +50,4 @@ reroll | roll, random, rand, r | - | Admin | Roll the items set to Grow or Shrin
 
 ---
 
-*latest update on 22nd of August 2020*
+*latest update on 20th of September 2020*

@@ -6,10 +6,15 @@
 * The two teams have to help each other by looking for each player *Reward Item*.
 * Each *Reward Item* brings points to the party and is mendatory to escape.
 * Once a player have its item, he can escape the foundation and become a Zombie to help others.
-* However, at a given interval, each team gets blinded turn by turn (either Scientists or ClassDs).
-* Whenever people die, they will respawn with they previous role at a random spawn point in LCZ.
+* However, at a given interval, each team gets flashed turn by turn (either Scientists or ClassDs).
+* Whenever people die, they will respawn with their previous role at a random spawn point in LCZ.
 * After a given time, the game ends and the Warhead explodes (finishing the round).
 * The quicker a player escapes, the more points he'll bring to this round.
+* Every escapee should drop their items to a randomly selected room on the map.
+
+## Patches
+
+* **SpeakingSCP:** All SCPs can now speak using their secondary vocal keybind.
 
 ## Configuration
 
@@ -29,7 +34,8 @@ DisplayItemDuration | ushort | 25 | Above 0 | Duration after which the rewarding
 Name | Alias | Arguments | Permission | Description
 :---: | :---: | :---: | :---: | :------
 item | info, reward | - | User | Display the name of your current reward item.
+room | spawn, drop, drops | all | Admin | Display the informations regarding the room in which items are dropped.
 
 ---
 
-*latest update on 22nd of August 2020*
+*latest update on 20th of September 2020*

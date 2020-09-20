@@ -4,7 +4,7 @@
 
 * A single player is picked to be the hostage (Scientist), others are either Chaos or MTF.
 * MTF have to free the Scientist while Chaos have to keep the hostage.
-* The game end either by having all the Chaos terminated, all the MTF respawn killed or by killing the hostage or freeing him.
+* The game end either by having all the Chaos terminated, all the MTF respawn killed or by killing/freeing the hostage.
 * The hostage cannot take damages in LCZ or HCZ if he doesn't have any weapon, disarmer, ball, hat or grenade.
 * Cuffing the Scientist may have him ensnared (which can be undone).
 * MTF respawn will be more important if more Chaos remain and usually are triggered on all MTF death (but can be called manually).
@@ -17,7 +17,7 @@ Name | Type | Value | Constraints | Description
 :---: | :---: | :---: | :---: | :------
 ChaosRepartition | float | 0.5 | Between 0 and 1 | Chaos starting amount over MTF starting amount.
 CuffedImmobility | bool | false | - | Become immobilized when cuffed.
-HostageDamageFactor | float | 0.05 | Above or equal to 0 | Multiplier of damage delt to the Hostage.
+HostageDamageFactor | float | 0.005 | Above or equal to 0 | Multiplier of damage delt to the Hostage.
 
 ### Respawn
 
@@ -35,4 +35,4 @@ respawn | r, next, new, respawnNTF | - | Admin | Force a new MTF respawn.
 
 ---
 
-*latest update on 6th of September 2020*
+*latest update on 20th of September 2020*

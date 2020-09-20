@@ -16,14 +16,14 @@ Here is a list of every Gamemodes currently available:
 
 Name | Prefix | State
 :---: | :---: | :---:
-[BlindLooters](./doc/BlindLooters.md) | BlindL | *Untested*
+[BlindLooters](./doc/BlindLooters.md) | BlindL | **Ready**
 [DarkSouls](./doc/DarkSouls.md) | - | *On Rework*
 [HideAndSeek](./doc/HideAndSeek.md) | - | **Ready**
 [HostageExtraction](./doc/HostageExtraction.md) | Hostage | **Ready**
 [Murder](./doc/Murder.md) | - | *On Work*
-[Pillar](./doc/Pillar.md) | - | *Untested*
+[Pillar](./doc/Pillar.md) | - | **Ready**
 [Purge](./doc/Purge.md) | - | **Ready**
-[Scp035](./doc/Scp035.md) | - | *Untested*
+[Scp035](./doc/Scp035.md) | - | **Ready**
 [ZombieInvasion](./doc/ZombieInvasion.md) | - | **Ready**
 
 #### Samples
@@ -100,4 +100,4 @@ In short, the commands call themselves likewise:
 
 ---
 
-*latest update* **_on 6th of September 2020_**
+*latest update* **_on 20th of September 2020_**

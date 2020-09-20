@@ -2,8 +2,10 @@
 
 * Every SCPs is either 049 or its zombies while others are Guards.
 * While 049 is alive, every death will result in a new zombie which grows weaker after each death.
+* 049 is affected with Bleeding, Burned and Poisoned effect and its size is slightly changed.
 * Killing zombies should grant the killer more ammos.
-* Whenever the bleeding 049 dies, only dying zombies will respawn as guards.
+* However, whenever a zombie dies, all guards receive a small amount of ammo.
+* Whenever 049 dies, dying zombies will respawn as guards.
 
 ## Configuration
 
@@ -35,4 +37,4 @@ SizeMultiplier | float | 1.15 | Above 0 | Size multiplier for Scp049.
 
 ---
 
-*latest update on 6th of September 2020*
+*latest update on 20th of September 2020*

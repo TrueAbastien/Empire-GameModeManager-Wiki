@@ -4,6 +4,7 @@
 * They all are teleported in one closed room where Scp-173 have to kill all the ClassD.
 * When only one ClassD remains, he gets to choose where to play the next round in.
 * The previous winner will always be a Scp-173 for the next round.
+* Unless he's a tutorial, a player can no longer interacts with lockers, doors, lifts, 914, the intercom nor the escape.
 
 ## Configuration
 
@@ -30,4 +31,4 @@ pick | room, next, pickroom | 'here'/RoomName | Mod | Pick the next room to play
 
 ---
 
-*latest update on 22nd of August 2020*
+*latest update on 20th of September 2020*
