@@ -2,8 +2,9 @@
 
 * Every SCPs is either 049 or its zombies while others are Guards.
 * While 049 is alive, every death will result in a new zombie which grows weaker after each death.
-* 049 is affected with Bleeding, Burned and Poisoned effect and its size is slightly changed.
-* Killing zombies should grant the killer more ammos.
+* 049 is affected with Bleeding and Burned effect and its size is slightly changed.
+* Every zombie has a chance to open a door on interaction, 049 can open any door on first try.
+* Killing zombies should grant the killer more ammos and regen its stamina.
 * However, whenever a zombie dies, all guards receive a small amount of ammo.
 * Whenever 049 dies, dying zombies will respawn as guards.
 
@@ -34,7 +35,9 @@ ZombieHealthDecrease | float | 100.0 | Above 0, Under *300 - ZombieMinimalHealth
 Name | Type | Value | Constraints | Description
 :---: | :---: | :---: | :---: | :------
 SizeMultiplier | float | 1.15 | Above 0 | Size multiplier for Scp049.
+ZombieDoorLuck | float | 0.01 | Between 0 and 1 | Luck of opening a door as a Zombie.
+ScpDoorSwitch | bool | true | - | SCPs can open doors.
 
 ---
 
-*latest update on 20th of September 2020*
+*latest update on 21st of October 2020*

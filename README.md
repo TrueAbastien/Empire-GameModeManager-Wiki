@@ -20,10 +20,11 @@ Name | Prefix | State
 [DarkSouls](./doc/DarkSouls.md) | - | *On Rework*
 [HideAndSeek](./doc/HideAndSeek.md) | - | **Ready**
 [HostageExtraction](./doc/HostageExtraction.md) | Hostage | **Ready**
-[Murder](./doc/Murder.md) | - | *On Work*
+[Murder](./doc/Murder.md) | - | **Ready**
 [Pillar](./doc/Pillar.md) | - | **Ready**
 [Purge](./doc/Purge.md) | - | **Ready**
 [Scp035](./doc/Scp035.md) | - | **Ready**
+[TeamFight](./doc/TeamFight.md) | Team | **Ready**
 [ZombieInvasion](./doc/ZombieInvasion.md) | - | **Ready**
 
 #### Samples
@@ -100,4 +101,4 @@ In short, the commands call themselves likewise:
 
 ---
 
-*latest update* **_on 20th of September 2020_**
+*latest update* **_on 21st of October 2020_**
