@@ -1,8 +1,8 @@
-# Gamemode, a edgy and short description.
+# Breach, like this one game.
 
-#### <ins>Prefix:</ins> **prefix**
+```This is still under work and is almost fully lacking its due content.```
 
-* A full description of every rules and propreties.
+* Alot.
 
 ## Patches
 
@@ -21,8 +21,7 @@ enabled | bool | true | - | Enable the plugin if need be.
 Name | Alias | Arguments | Permission | Description
 :---: | :---: | :---: | :---: | :------
 info | i | - | Manager | Display informations about the current state of this Gamemode.
-_buy_ | - | itemID | User | Buy something for the current Player.
 
 ---
 
-*latest update on 23rd of August 2020*
+*latest update on 24th of December 2020*

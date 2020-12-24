@@ -3,6 +3,7 @@
 #### <ins>Prefix:</ins> **Team**
 
 * Each team is spawned somewhere, in a selected room in a selected zone.
+* The teams no longer need to be fair (configurable).
 * Before the game starts, every doors is locked.
 * In the waiting phase, players may receive items and ammos and will be moved on room changed.
 * Once the game starts, the doors open and players are free to kill the other team players.
@@ -26,6 +27,7 @@ Name | Type | Value | Constraints | Description
 :---: | :---: | :---: | :---: | :------
 DefaultClassA | Enum.RoleType | RoleType.ClassD | Must be different from **DefaultClassB** | Default class for first team.
 DefaultClassB | Enum.RoleType | RoleType.Scientist | Must be different from **DefaultClassA** | Default class for second team.
+TeamAOverB | float | 1.0 | Amount of player in A team over B team.
 
 ## Commands
 
@@ -34,7 +36,8 @@ Name | Alias | Arguments | Permission | Description
 room | spawn | 'A'/'B', 'Here'/RoomName | Admin | Change the spawn room in which to play.
 zone | changezone, newzone | ZoneName | Admin | Change the Zone in which the match is played in.
 give | item, add | ItemType/ItemID, [Amount] | Admin | Add an item (or ammo) to everyone.
+start | begin | - | Admin | Start the round between the two teams.
 
 ---
 
-*latest update on 21st of October 2020*
+*latest update on 24th of December 2020*

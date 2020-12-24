@@ -32,7 +32,8 @@ LieutenantChances | float | 0.3 | Between 0 and 1 | Chances of becoming a lieute
 Name | Alias | Arguments | Permission | Description
 :---: | :---: | :---: | :---: | :------
 respawn | r, next, new, respawnNTF | - | Admin | Force a new MTF respawn.
+select | slct, pick, choose | playerID, targetID | Admin | Change the current Hostage.
 
 ---
 
-*latest update on 20th of September 2020*
+*latest update on 24th of December 2020*

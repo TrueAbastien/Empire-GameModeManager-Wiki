@@ -17,7 +17,8 @@ Here is a list of every Gamemodes currently available:
 Name | Prefix | State
 :---: | :---: | :---:
 [BlindLooters](./doc/BlindLooters.md) | BlindL | **Ready**
-[DarkSouls](./doc/DarkSouls.md) | - | *On Rework*
+[Breach](./doc/Breach.md) | - | *On Work*
+[DarkSouls](./doc/DarkSouls.md) | - | **Ready**
 [HideAndSeek](./doc/HideAndSeek.md) | - | **Ready**
 [HostageExtraction](./doc/HostageExtraction.md) | Hostage | **Ready**
 [Murder](./doc/Murder.md) | - | **Ready**
@@ -94,6 +95,30 @@ In short, the commands call themselves likewise:
 * ```gm.config.get <GamemodePrefix> <PropertyName>```
 * ```gm.config.set <GamemodePrefix> <PropertyName> <Value>```
 
+### Features
+
+Additional features have been implemented into the *GameModeManager* to ensure and complete further developments required.
+
+#### Invisibility
+
+* This fake invisibility register player to appear invisible every time they spawn.
+* Invisibility render players almost impossible to shoot/hit with raycasts means of damage.
+* Players affected may encounter various bugs with the Physic Engine and should be precautious around walls, stairs or any other obstacles.
+* It will still trigger SCP-096 & SCP-173 properties when looking at them and will appear as a thin vertical line when seen by SCP-939's vision.
+* Interaction of any sort (door, damage, shoots, etc...) will not remove the invisibility.
+* Whenever their invisibility is removed, players will get back the scale they originally had before becoming invisible.
+
+##### Commands
+
+Name | Aliases | Arguments | Permission | Description
+:---: | :---: | :---: | :---: | :------
+gm.invisibility.add | gm.invis.add | PlayerID | Admin | Add a player to the Invisibility List.
+gm.invisibility.remove | gm.invis.remove | PlayerID | Admin | Remove a player from the Invisibility List.
+
+#### Map Seed
+
+```Nothing has been fully implemented yet, this is still ongoing work...```
+
 
 ## Developper manual
 
@@ -101,4 +126,4 @@ In short, the commands call themselves likewise:
 
 ---
 
-*latest update* **_on 21st of October 2020_**
+*latest update* **_on 24th of December 2020_**
