@@ -117,7 +117,23 @@ gm.invisibility.remove | gm.invis.remove | PlayerID | Admin | Remove a player fr
 
 #### Map Seed
 
-```Nothing has been fully implemented yet, this is still ongoing work...```
+* Allows you to lock a specific Seed for the complete map generation.
+* Doesn't affect item generation or role distribution.
+* Can be locked/freed at any time but require a restart when set.
+
+##### Commands
+
+Name | Aliases | Arguments | Permission | Description
+:---: | :---: | :---: | :---: | :------
+gm.mapseed.free | - | - | Mod | Free the 'currentSeed' to be set randomly, as usual, for each round.
+gm.mapseed.info | - | - | Mod | Display info related to the current state of Seed making.
+gm.mapseed.lock | - | - | Admin | Lock the seed to be set on the 'currentSeed' (if different from -1).
+gm.mapseed.set | - | seed (integer between -1e10 and 1e10) | Set the 'currentSeed' to the given value & lock the seed if need be.
+
+##### Patches
+
+**RandomSeedSync.Start:** to lock the map seed if required.
+**ImageGenerator.GeneratorTask_SetRooms:** to print out informations on Debug mode.
 
 
 ## Developper manual
